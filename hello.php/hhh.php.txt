@@ -1,0 +1,9 @@
+<html>
+<head>
+<tittle>udwe</title>
+</head>
+<body>
+<?php
+ echo "dddddddd";
+?></body>
+</html>
