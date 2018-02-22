@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+function timerHandler()
+ {    alert("Hey what are you doing just sitting there staring at a blank screen?");
+ } 
+ setTimeout(timerHandler, 5000);
+ var tick = true;
+ function ticker()
+ {    if (tick) 
+ {        document.write("Tick");  
+ tick = false; 
+ }
+ else
+ {        document.write("Tock");    
+ tick = true; 
+ } }
+ setInterval(ticker, 1000)
+
+ window.onload = timerHandler;
+ </script>
+ </head>
+ </html>

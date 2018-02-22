@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+function lieDetectorTest()
+ {    var lies = 0;
+    var stolenDiamond = { };  
+	if (stolenDiamond)
+	{  
+	document.write("You stole the diamond");   
+    lies++; 
+	}   
+	var car = {   
+	keysInPocket: null    };
+    if (car.keysInPocket)
+	{   
+	document.write("Uh oh, guess you stole the car!");        lies++;    } 
+	if (car.emptyGasTank) 
+	{     
+	documet.write("You drove the car after you stole it!");        lies++;    } 
+	var foundYouAtTheCrimeScene = [ ];  
+	if (foundYouAtTheCrimeScene)
+	{        document.write("A sure sign of guilt");        lies++;    }  
+	if (foundYouAtTheCrimeScene[0])
+	{        document.write("Caught with a stolen item!");        lies++;    }  
+	var yourName = " ";    if (yourName)
+	{        document.write("Guess you lied about your name");        lies++;    } 
+	return lies;
+	}
+	var numberOfLies = lieDetectorTest();
+	document.write("You told " + numberOfLies + " lies!"); 
+	if (numberOfLies >= 3) {    document.write("Guilty as charged"); } 
+	</script>
+	</head>
+	</html>
