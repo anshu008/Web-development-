@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>...</title>
+<body>
+<h1> reading the data
+</h1>
+you order the items: <br>
+<?php
+$text =$_REQUEST["data"];
+a
+b
+c
+d
+?>
+</body>
+</html>
