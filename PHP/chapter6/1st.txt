@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>welcome to the script</title>
+</head>
+<body><h1>welcome to my script</h1>
+<?php
+echo"you have acessed",$_ SERVER["PHP_SELF"],"on port ",$_SERVER["SERVER_PORT"];
+?>
+</body>
+</html>
